@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+      .box {
+        height: 100px;
+        width: 100px;
+        border: 1px solid black;
+        animation: 10s abc infinite;
+        animation-delay: 2s;
+      }
+      @keyframes abc {
+  0% {
+    margin-left: 0;
+    background-color: red;
+  }
+  25% {
+    margin-left: 100px;
+    background-color: yellow;
+    transform: rotate(90deg);
+  }
+  50% {
+    margin-left: 200px;
+    background-color: green;
+    transform: rotate(180deg);
+  }
+  75% {
+    margin-left: 300px;
+    background-color: blue;
+    transform: rotate(270deg);
+  }
+  100% {
+    margin-left: 400px;
+    background-color: purple;
+    transform: rotate(360deg);
+  }
+}
+
+      }
+    </style>
+    <title></title>
+  </head>
+  <body>
+    <p>LUCKY</p>
+    <div class="box"></div>
+  </body>
+</html>
